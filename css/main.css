@@ -1,0 +1,90 @@
+.top{
+    background:linear-gradient(311deg, rgba(12,57,198,0.8), rgba(95,44,162,0.7), rgba(126,7,172,0.8)), url(background.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    height: 100%;
+  }
+  .first-font{
+    font-size: 35px;
+}
+.second-font{
+    font-size: 20px;
+}
+.third-font{
+    font-size: 100px;
+}
+.fourth-font{
+    font-size: 200px;
+}
+.nav-margin{
+    margin-right: 60px;
+}
+.search{
+    margin-top: 120px;
+}
+.padding-top{
+    padding-top: 80px; 
+}
+.search-bar{
+    height:50px;
+}
+.right-left-margin{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.plans{
+    background:linear-gradient(311deg, rgba(12,57,198,0.8), rgba(95,44,162,0.7), rgba(126,7,172,0.8)), url(background1.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.footer-background{
+    background:linear-gradient(311deg, rgba(12,57,198,0.8), rgba(95,44,162,0.7), rgba(126,7,172,0.8)), url(background2.jpg);
+    background-size: cover;
+    height: 100%;
+  }
+.gradient{
+    background: rgb(12,57,198);
+    background: linear-gradient(311deg, rgba(12,57,198,1) 0%, rgba(95,44,162,1) 65%, rgba(126,7,172,1) 100%);   
+
+}
+.text-gradient{
+    background: #1D2FCF;
+    background: -webkit-linear-gradient(311deg, rgba(12,57,198,1) 0%, rgba(95,44,162,1) 65%, rgba(126,7,172,1) 100%);
+    background: -moz-linear-gradient(311deg, rgba(12,57,198,1) 0%, rgba(95,44,162,1) 65%, rgba(126,7,172,1) 100%);
+    background: linear-gradient(311deg, rgba(12,57,198,1) 0%, rgba(95,44,162,1) 65%, rgba(126,7,172,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+.setting{
+    display: flex;
+}
+.features{
+    margin-top: 530px;
+}
+/* Media Qurey */
+@media (max-width:1360px){
+    .features{
+        margin-top: 1250px;
+    }
+  
+}
+@media (max-width:842px){
+    .features{
+        margin-top: 2000px;
+    }
+    .setting{
+        display: block;
+    }
+}
+@media (max-width:372px){
+    .features{
+        margin-top: 2200px;
+    }
+  
+}
